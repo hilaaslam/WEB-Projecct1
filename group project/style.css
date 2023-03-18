@@ -1,0 +1,92 @@
+.{
+    margin: 0%;
+    padding: 0%;
+} 
+ body{
+    font-family: bold'Courier New', Courier, monospace;  
+}  
+.parent{
+ /* background-color: pink;  */
+   width: 195vh;
+   height: 15vh;
+   border: 2px solid rgba(red, green, blue, alpha);
+   display: flex;
+   flex-wrap: wrap;
+   border-radius: 80px;
+
+}
+  
+ .child{
+    background-color: rgb(241, 185, 112);
+    width: 100px;
+    height: 50px;
+    color: black;
+    margin: 50px;
+    border: 2px solid black;
+    /* border-radius: 80ch;
+    border-color: brown;  */
+ }
+ .target{
+    font-size: 2em;
+    order: 2px;
+    flex-grow: 2;
+ } 
+ .young{
+    width: 195vh;
+    height: 100vh;
+   /* background-color: red; */
+   /* border-color: 2px blue solid; */
+   display: flex;
+   flex-direction: row;
+   /* border-radius: 100ch; */
+ }
+ .old{
+    /* background-color: white;  */
+    width: 600px;
+    height: 600px;
+    color: black;
+    margin: 20px;
+    border-radius: 80vh; 
+    border: 2px solid  chartreuse;
+ }
+
+/* .bags{
+    width: 10%;
+    height: 20%;
+    color: rgb(131, 47, 47)
+     background-color: yellow; 
+    border: 1px crimson;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 50vh;  
+}  */
+/* .target{
+    font-size: 1em;
+    order: 2;
+    flex-grow: 2;
+}
+.target{
+    font-size: 1em;
+    order: 2;
+    flex-grow: 2;
+} */
+/* .{
+    margin: 0%;
+    padding: 0%;
+}
+.font{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.parent{ */
+    /* width: 180%;
+    height: 120%;
+    color: pink;
+    background-color: brown; */
+    /* border: 50px solid cornflowerblue;
+    display: flex; */
+
+ /* .child{ */
+    /* width: 10%; */
+    /* height: 50%; */
+    /* background-color: rgb(158, 48, 48);  */
+/* } */ 
