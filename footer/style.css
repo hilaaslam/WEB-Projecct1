@@ -47,9 +47,7 @@ small{
     height:  56;
     margin-top: 09px;
 }
-img{
-    border-radius: 50%;
-}
+
 .heading{
     width: 30%;
     height: 10vh;
@@ -109,8 +107,8 @@ textarea{
     border-radius: 50%;
     margin-left: 3%;
 }
-img{
+.fix{
     padding: 10px;
-    width: 80%;
+    border-radius: 50%;
 }
 
