@@ -142,9 +142,9 @@ body {
     font-style: under;
 }
 .targets{
-    font-size: 6em;
+    font-size: 4em;
     width: 100%;
-    height: 20vh;
+    height: 14vh;
     background-color: white;
     box-shadow:  0 0 5px rgba(7, 7, 7, 0.856);
     /* margin-left: 05%; */
