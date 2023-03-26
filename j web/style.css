@@ -136,8 +136,8 @@ form.search::after {
 }
 
 .target {
-    font-size: 10vh;
-    width: 650px;
+    font-size: 9vh;
+    width: 600px;
     background-color: rgb(255, 255, 255);
     margin-left: 75%;
     /* margin-bottom: 10%; */
