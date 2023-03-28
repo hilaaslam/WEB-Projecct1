@@ -3,6 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* 320px — 480px: Mobile devices. */
+
+@media screen (min-width: 320px) and (max-width: 480px) (orientation:portrait)
+{
+   /* nav{
+    background-color: blue;
+   } */
+}
+
+/* 481px — 768px: iPads, Tablets. */
+
+@media (min-width: 481px) and (max-width: 768px) (orientation:portrait)
+{
+    /* nav {
+        background-color: red;
+    } */
+}
+
+
+/* 769px — 1024px: Small screens, laptops. */
+ @media (min-width: 769px) and (max-width: 1024px) (orientation:landscape)
+ {
+    /* nav {
+        background-color: green;
+    } */
+} 
+
+/* 1025px — 1200px: Desktops, large screens. */
+
+ @media (min-width: 1025px) and (max-width: 1200px) (orientation:landscape)
+ {
+    /* nav {
+        background-color: yellow;
+    } */
+} 
 
 body {
     text-decoration: none;
@@ -88,6 +123,8 @@ center .logo {
     display: block;
     margin-top: -90px;
     margin-left: 80px;
+    cursor: pointer;
+    /* color: goldenrod; */
 }
 
 form.search input{
@@ -1097,17 +1134,17 @@ form.search::after {
     justify-content: center;
 }
 
-. {
+/* .{
     font-size: 9vh;
     width: 600px;
     background-color: rgb(255, 255, 255);
     margin-left: 75%;
-    /* margin-bottom: 10%; */
+    margin-bottom: 10%; 
     cursor: pointer;
     display: flex;
     align-items: center;
     box-shadow: 0 0 5px rgba(7, 7, 7, 0.856);
-}
+}  */
 
 .target:hover {
     background-color: rgb(250, 208, 153);
@@ -1118,9 +1155,6 @@ form.search::after {
     width: 300px;
     margin: 20px auto;
     text-decoration: underline;
-}
-.cetegories:hover{
-    /* background-color: #fff; */
 }
 
 .cetegories .falak {
@@ -1495,7 +1529,7 @@ form.search::after {
 * {
     margin: 0;
     padding: 0;
-    */ box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -1622,7 +1656,7 @@ form.search::after {
 * {
     margin: 0;
     padding: 0;
-    */ box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -1782,9 +1816,6 @@ form.search::after {
     margin: 20px auto;
     text-decoration: underline;
 
-}
-.cetegories:hover{
-    /* background-color: #fff; */
 }
 
 .cetegories .falak {
@@ -2275,6 +2306,8 @@ center {
 .para ul li {
     text-decoration: none;
 } */
-
-
+/* .bracelets{
+    cursor: pointer;
+} */
+ 
 
